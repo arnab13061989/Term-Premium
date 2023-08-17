@@ -19,7 +19,7 @@ for(n in 1:n_maturities)
 yield = yield/100
 yield_raw=as.data.frame(yield)
 #View(yield_raw)
-yield_raw[,121]= (file$ï..Date)
+yield_raw[,121]= (file$Date)
 
 #######
 
